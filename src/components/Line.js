@@ -13,6 +13,9 @@ const Line = (props) => {
       onMouseLeave={() => {
         setShow(false);
       }}
+      onClick={() => {
+        navigator.clipboard.writeText(emoji);
+      }}
     >
       <div>
         {emoji} {title}
