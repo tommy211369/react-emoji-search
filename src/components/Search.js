@@ -7,8 +7,8 @@ const Search = (props) => {
     setFilterText(e.target.value);
   };
   return (
-    <div>
-      <h1>Emoji Search</h1>
+    <div className="search">
+      <h1>&#128526; Emoji Search &#128526;</h1>
       <input
         placeholder="What emoji are you looking for ?"
         value={filterText}

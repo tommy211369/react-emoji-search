@@ -1,1 +1,15 @@
 /* Other rules */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: red;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.search {
+  text-align: center;
+}

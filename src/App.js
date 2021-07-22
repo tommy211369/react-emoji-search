@@ -15,7 +15,7 @@ function App() {
   const LINES = [];
 
   return (
-    <div classNames="">
+    <div className="app">
       <Search filterText={filterText} setFilterText={setFilterText} />
 
       {emojis.forEach((item, index) => {
@@ -35,7 +35,7 @@ function App() {
         }
       })}
 
-      <div>{LINES}</div>
+      <div>{LINES.slice(0, 20)}</div>
       <Footer />
     </div>
   );
