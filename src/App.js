@@ -8,10 +8,12 @@ import emojis from "./assets/emoji-list.json";
 function App() {
   const [filterText, setFilterText] = useState("");
 
+  // première en majuscule
   const capitalize = (a) => {
     return (a + "").charAt(0).toUpperCase() + a.substr(1);
   };
 
+  // tableau à remplir
   const LINES = [];
 
   return (
