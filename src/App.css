@@ -30,6 +30,9 @@ input {
 }
 
 .line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 25px;
   background-color: #f9f9f9;
   margin: 10px 0;
@@ -39,4 +42,16 @@ input {
 .line:hover {
   background-color: #f8efef;
   cursor: pointer;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+p {
+  font-size: 15px;
 }
