@@ -55,3 +55,33 @@ input {
 p {
   font-size: 15px;
 }
+
+@media (max-width: 1025px) {
+  .app {
+    max-width: 100%;
+  }
+
+  input {
+    width: 60%;
+  }
+
+  .line {
+    margin: 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  input {
+    font-size: 12px;
+  }
+
+  .search h1 {
+    font-size: 30px;
+  }
+
+  .line {
+    font-size: 20px;
+  }
+}
