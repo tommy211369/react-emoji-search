@@ -3,7 +3,7 @@ import React from "react";
 const Line = (props) => {
   const { emoji, title } = props;
   return (
-    <div>
+    <div className="line">
       {emoji} {title}
     </div>
   );

@@ -2,14 +2,41 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .app {
-  background-color: red;
   width: 1000px;
   margin: 0 auto;
 }
 
 .search {
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.search h1 {
+  font-size: 45px;
+}
+
+input {
+  text-align: center;
+  width: 625px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  line-height: 42px;
+  background-color: #f8efef;
+}
+
+.line {
+  font-size: 25px;
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.line:hover {
+  background-color: #f8efef;
+  cursor: pointer;
 }
