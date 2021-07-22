@@ -8,6 +8,10 @@ import emojis from "./assets/emoji-list.json";
 function App() {
   const [filterText, setFilterText] = useState("");
 
+  const capitalize = (a) => {
+    return (a + "").charAt(0).toUpperCase() + a.substr(1);
+  };
+
   const LINES = [];
 
   return (
@@ -19,7 +23,9 @@ function App() {
           item.keywords.toUpperCase().indexOf(filterText) === -1 &&
           item.keywords.toLowerCase().indexOf(filterText) === -1 &&
           item.title.toUpperCase().indexOf(filterText) === -1 &&
-          item.title.toLowerCase().indexOf(filterText) === -1
+          item.title.toLowerCase().indexOf(filterText) === -1 &&
+          capitalize(item.keywords).indexOf(filterText) === -1 &&
+          capitalize(item.title).indexOf(filterText) === -1
         ) {
           return;
         } else {
