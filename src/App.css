@@ -101,3 +101,20 @@ p {
     font-size: 20px;
   }
 }
+
+@media (max-width: 425px) {
+  .footer p {
+    font-size: 12px;
+  }
+
+  .footer a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer p,
+  .footer a {
+    font-size: 12px;
+  }
+}
