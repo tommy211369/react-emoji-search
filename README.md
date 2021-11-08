@@ -1,9 +1,15 @@
-## About the project
+# Emoji Search
+
+## Website
+
+Follow this link to check my project : https://react-emoji-search-engine.netlify.app/
+
+## About this project
 
 An emoji search engine made with React.  
 A small project to understand how to filter items.
 
-site : https://react-emoji-search-engine.netlify.app/
+## Screenshots
 
 <img width="1092" alt="Capture d’écran 2021-07-31 à 19 38 52" src="https://user-images.githubusercontent.com/77752681/127748129-26acc74d-b77c-4e29-a45b-46f701bbe223.png">
 
